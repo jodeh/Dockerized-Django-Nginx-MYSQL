@@ -1,16 +1,19 @@
 # Demo Django Application with MYSQL and Nginx Reverse Proxy.
-![Dockerize-01](https://github.com/jodeh/Dockerized-Django-Nginx-MYSQL/assets/80529706/028acd0c-95be-4a68-8b1a-9550db43c9ef)
+ ![Dockerize-01](https://github.com/jodeh/Dockerized-Django-Nginx-MYSQL/assets/80529706/028acd0c-95be-4a68-8b1a-9550db43c9ef)
 <hr>
+
 ## Table of Contents
-* ### Prerequisites
-* ### How to build
-* ### Configuration
+ * ### Prerequisites
+ * ### How to build
+ * ### Configuration
 <hr>
+
 ### Prerequisites
 Make sure you have downloaded these prerequisites before we start 
 * [Docker](https://docs.docker.com/get-docker/)
 * [Docker compose](https://docs.docker.com/compose/install/)
 <hr>
+
 ### How to build
  
   1. Clone the repository to your local machine
@@ -69,8 +72,14 @@ Make sure you have downloaded these prerequisites before we start
      Tables must be shown like this.
    
      ![djangodb](https://github.com/jodeh/Dockerized-Django-Nginx-MYSQL/assets/80529706/e7de7bf2-4c24-4a4a-858a-48264800cbfd)
-  9. Finally you can check the connectivity by going to the ip which we gave to the nginx which is 10.0.0.5 or the server name.
+
+     
+   9. Finally Check The Connectivity
+      
+   ![Django](https://github.com/jodeh/Dockerized-Django-Gunicorn-Postgres-Nginx/assets/80529706/cf90de2b-9d61-439a-b077-6a843e377d29)
+   
 <hr>
+
 ### Configuration
   * We can configure django settings by editting ./django/mysite/settings.py file
   * The proxy pass and the server name can be configured by editting ./etc/nginx/conf.d/default.conf file
