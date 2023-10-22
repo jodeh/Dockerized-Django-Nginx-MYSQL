@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE'  : 'django.db.backends.mysql', # <-- UPDATED line 
-        'NAME'    : 'jodehdb',                 # <-- UPDATED line 
+        'NAME'    : 'djangodb',                 # <-- UPDATED line 
         'USER'    : 'jodeh',                     # <-- UPDATED line
         'PASSWORD': 'password',              # <-- UPDATED line
-        'HOST'    : '10.10.0.15',                # <-- UPDATED line
+        'HOST'    : '10.0.0.15',                # <-- UPDATED line
         'PORT'    : '3306',
     }
 }
